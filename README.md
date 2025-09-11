@@ -1,14 +1,46 @@
+
+# MicroMelon Rover Scripts
 ## Usage
-In order to use the scripts listed here, follow these directions carefully.
-**This project is only supported for Windows users only right now, more features will be comming to Mac.**
-### Download repository
-To download all necessary files and dependencies, click the green 'Code' button and choose 'Download ZIP' in the dropdown. Open the download location then extract all of the files using Windows' built-in utility or utilities such as 7-Zip or WinRAR.
-### Get python 
-Open Windows PowerShell. Simply launch the application by searching for it in the search bar.
-In the window, type `python` (without the quotation marks). This should launch Microsoft Store. (If you do not wish to use the Microsoft Store, you may also download and install python from its official website, python.org.) In this window, you will have to press 'Get' in order to download python. This step is crucial as python is essential for running scripts. Wait for the installer to finish, then proceed. You may close this window. **If you already have python for other reasons, you can skip this step, but your version might be outdated so best redownload it.**
-### Get Pip
-Pip is the package manager for python. This is crucial for installing and managing the modules 'keyboard' and 'micromelon' in order to control the robot. Install python by navigating to the extracted repository folder, either by going into File Explorer, navigating to the folder that contains the file 'get-pip.py', or using CLI commands. If you are using File Explorer, right click on any empty space inside the folder, then select 'Open in Terminal'. In this PowerShell window, type in `python get-pip.py`. Wait for the command to finish running. This will install pip, the package manager for python. 
-### Install dependencies
-For drive.py and sim.py, you will need `micromelon` and `keyboard`. Install these by typing in the terminal (Windows PowerShell) `python -m pip install micromelon keyboard`. This will install the dependencies required to run these scripts.
-### Run script
-If you do these steps correctly, you should be able to navigate to the folder containing your desired script, such as drive.py, then in the right click menu, choose Open in Terminal. Then run the script by typing `python [script].py` and replace [script] with your script name, such as `python drive.py`. Congratulations, and enjoy!
+Follow these steps carefully to set up and use the scripts in this repository.  
+> **Note:** Currently supported on **Windows only**. Mac support is planned for the future.
+### 1. Download the repository
+1. Click the green **Code** button on this page.  
+2. Choose **Download ZIP** from the dropdown.  
+3. Extract the files using Windows' built-in utility, 7-Zip, or WinRAR.
+### 2. Install Python
+1. Open **Windows PowerShell** (search for it in the Start menu).  
+2. Type:
+   ```powershell
+   python
+   ```
+* If Python is not installed, this may open the Microsoft Store.
+* You can also download Python directly from the official website: [python.org](https://www.python.org/downloads/).
+3. Install the latest version and wait for the setup to finish.
+   > If you already have Python installed, you can skip this step, but we recommend updating to the latest version.
+### 3. Install Pip
+Pip is Python’s package manager, needed for installing extra libraries.
+1. In File Explorer, navigate to the folder containing the file `get-pip.py` (included in this repository).
+2. Right-click inside the folder and choose **Open in Terminal**.
+3. Run:
+   ```powershell
+   python get-pip.py
+   ```
+4. Wait for the installation to complete.
+### 4. Install Dependencies
+The scripts require the following Python packages:
+* [`micromelon`](https://pypi.org/project/micromelon/)
+* [`keyboard`](https://pypi.org/project/keyboard/)
+Install them by running:
+```powershell
+python -m pip install micromelon keyboard
+```
+### 5. Run a Script
+1. Navigate to the folder containing the script you want to run (e.g., `drive.py` or `sim.py`).
+2. Right-click in the folder and choose **Open in Terminal**.
+3. Run the script with:
+   ```powershell
+   python drive.py
+   ```
+   Replace `drive.py` with any other script name (e.g., `sim.py`).
+## Congratulations 🎉
+If everything is installed correctly, your MicroMelon rover should now be ready to connect and run with these scripts.
