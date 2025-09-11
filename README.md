@@ -30,6 +30,7 @@ Pip is Python’s package manager, needed for installing extra libraries.
 The scripts require the following Python packages:
 * [`micromelon`](https://pypi.org/project/micromelon/)
 * [`keyboard`](https://pypi.org/project/keyboard/)
+
 Install them by running:
 ```powershell
 python -m pip install micromelon keyboard
