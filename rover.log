@@ -1,0 +1,7 @@
+2025-10-15 12:41:46 | RoverLogger | INFO | ============================================================
+2025-10-15 12:41:46 | RoverLogger | INFO | MicroMelon Rover Control System Started
+2025-10-15 12:41:46 | RoverLogger | INFO | Log level: INFO
+2025-10-15 12:41:46 | RoverLogger | INFO | File logging: Enabled
+2025-10-15 12:41:46 | RoverLogger | INFO | ============================================================
+2025-10-15 12:41:46 | Main | INFO | MicroMelon Rover Control System starting...
+2025-10-15 12:41:46 | Main | INFO | Arguments: mode=None, target=None

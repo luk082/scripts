@@ -1,0 +1,94 @@
+{
+  "default_ble_port": 2013,
+  "simulator_address": "127.0.0.1",
+  "simulator_port": 9000,
+  "connection_timeout": 10.0,
+  "connection_retry_attempts": 3,
+  "max_motor_speed": 50,
+  "min_motor_speed": -50,
+  "turn_speed_differential": 20,
+  "motor_acceleration_limit": 10.0,
+  "sensor_update_interval": 0.2,
+  "sensor_timeout": 2.0,
+  "ultrasonic_max_range": 255.0,
+  "battery_low_threshold": 10,
+  "obstacle_distance_threshold": 20.0,
+  "enable_collision_avoidance": false,
+  "emergency_stop_enabled": true,
+  "max_tilt_angle": 45.0,
+  "camera_width": 640,
+  "camera_height": 480,
+  "camera_fps": 30,
+  "gesture_confidence_threshold": 0.7,
+  "prediction_history_length": 5,
+  "gesture_model_path": "gesture_model.pkl",
+  "window_width": 800,
+  "window_height": 800,
+  "fps_target": 60,
+  "fullscreen_default": false,
+  "gui_theme": "dark",
+  "enable_performance_monitoring": true,
+  "log_performance_metrics": false,
+  "frame_skip_threshold": 0.1,
+  "log_level": "INFO",
+  "log_to_file": true,
+  "log_file_path": "rover.log",
+  "max_log_size": 10485760,
+  "led_colors": {
+    "RED": [
+      255,
+      0,
+      0
+    ],
+    "GREEN": [
+      0,
+      255,
+      0
+    ],
+    "BLUE": [
+      0,
+      0,
+      255
+    ],
+    "YELLOW": [
+      255,
+      255,
+      0
+    ],
+    "CYAN": [
+      0,
+      255,
+      255
+    ],
+    "MAGENTA": [
+      255,
+      0,
+      255
+    ],
+    "WHITE": [
+      255,
+      255,
+      255
+    ],
+    "ORANGE": [
+      255,
+      165,
+      0
+    ],
+    "PURPLE": [
+      128,
+      0,
+      128
+    ],
+    "LIME": [
+      0,
+      255,
+      128
+    ],
+    "PINK": [
+      255,
+      192,
+      203
+    ]
+  }
+}
