@@ -5,3 +5,278 @@
 2025-10-15 12:41:46 | RoverLogger | INFO | ============================================================
 2025-10-15 12:41:46 | Main | INFO | MicroMelon Rover Control System starting...
 2025-10-15 12:41:46 | Main | INFO | Arguments: mode=None, target=None
+2025-10-15 13:57:06 | RoverLogger | INFO | ============================================================
+2025-10-15 13:57:06 | RoverLogger | INFO | MicroMelon Rover Control System Started
+2025-10-15 13:57:06 | RoverLogger | INFO | Log level: INFO
+2025-10-15 13:57:06 | RoverLogger | INFO | File logging: Enabled
+2025-10-15 13:57:06 | RoverLogger | INFO | ============================================================
+2025-10-15 13:57:06 | Main | INFO | MicroMelon Rover Control System starting...
+2025-10-15 13:57:06 | Main | INFO | Arguments: mode=gesture, target=simulator
+2025-10-15 13:57:06 | Main | INFO | Starting gesture mode with simulator target
+2025-10-15 13:57:06 | Main | ERROR | Fatal error: No module named 'interfaces.gesture_interface'
+2025-10-15 14:01:05 | RoverLogger | INFO | ============================================================
+2025-10-15 14:01:05 | RoverLogger | INFO | MicroMelon Rover Control System Started
+2025-10-15 14:01:05 | RoverLogger | INFO | Log level: INFO
+2025-10-15 14:01:05 | RoverLogger | INFO | File logging: Enabled
+2025-10-15 14:01:05 | RoverLogger | INFO | ============================================================
+2025-10-15 14:01:05 | Main | INFO | MicroMelon Rover Control System starting...
+2025-10-15 14:01:05 | Main | INFO | Arguments: mode=gesture, target=simulator
+2025-10-15 14:01:05 | Main | INFO | Starting gesture mode with simulator target
+2025-10-15 14:01:06 | RoverLogger | INFO | ============================================================
+2025-10-15 14:01:06 | RoverLogger | INFO | MicroMelon Rover Control System Started
+2025-10-15 14:01:06 | RoverLogger | INFO | Log level: INFO
+2025-10-15 14:01:06 | RoverLogger | INFO | File logging: Enabled
+2025-10-15 14:01:06 | RoverLogger | INFO | ============================================================
+2025-10-15 14:01:06 | RoverLogger | INFO | ============================================================
+2025-10-15 14:01:06 | RoverLogger | INFO | MicroMelon Rover Control System Started
+2025-10-15 14:01:06 | RoverLogger | INFO | Log level: INFO
+2025-10-15 14:01:06 | RoverLogger | INFO | File logging: Enabled
+2025-10-15 14:01:06 | RoverLogger | INFO | ============================================================
+2025-10-15 14:01:06 | RoverLogger | INFO | ============================================================
+2025-10-15 14:01:06 | RoverLogger | INFO | MicroMelon Rover Control System Started
+2025-10-15 14:01:06 | RoverLogger | INFO | Log level: INFO
+2025-10-15 14:01:06 | RoverLogger | INFO | File logging: Enabled
+2025-10-15 14:01:06 | RoverLogger | INFO | ============================================================
+2025-10-15 14:01:06 | SimulatorRoverController | INFO | Initialized SimulatorRoverController
+2025-10-15 14:01:06 | SimulatorRoverController | INFO | Connecting to simulator at 127.0.0.1:9000
+2025-10-15 14:01:06 | Micromelon | INFO | Rover battery at 100%
+2025-10-15 14:01:06 | Micromelon | INFO | No sensor errors detected
+2025-10-15 14:01:06 | SimulatorRoverController | INFO | Successfully connected to simulator
+2025-10-15 14:01:06 | Main | INFO | Rover connected successfully
+2025-10-15 14:01:06 | RoverLogger | INFO | ============================================================
+2025-10-15 14:01:06 | RoverLogger | INFO | MicroMelon Rover Control System Started
+2025-10-15 14:01:06 | RoverLogger | INFO | Log level: INFO
+2025-10-15 14:01:06 | RoverLogger | INFO | File logging: Enabled
+2025-10-15 14:01:06 | RoverLogger | INFO | ============================================================
+2025-10-15 14:01:06 | GestureInterface | INFO | Gesture interface initialized
+2025-10-15 14:01:06 | Main | INFO | Starting interface...
+2025-10-15 14:01:10 | GestureInterface | INFO | Camera initialized: 640x480
+2025-10-15 14:05:41 | GestureInterface | INFO | Gesture interface shutdown
+2025-10-15 14:05:41 | SimulatorRoverController | INFO | Starting cleanup...
+2025-10-15 14:05:41 | Micromelon | INFO | Connection closed
+2025-10-15 14:13:19 | RoverLogger | INFO | ============================================================
+2025-10-15 14:13:19 | RoverLogger | INFO | MicroMelon Rover Control System Started
+2025-10-15 14:13:19 | RoverLogger | INFO | Log level: INFO
+2025-10-15 14:13:19 | RoverLogger | INFO | File logging: Enabled
+2025-10-15 14:13:19 | RoverLogger | INFO | ============================================================
+2025-10-15 14:13:19 | Main | INFO | MicroMelon Rover Control System starting...
+2025-10-15 14:13:19 | Main | INFO | Arguments: mode=gesture, target=simulator
+2025-10-15 14:13:19 | Main | INFO | Starting gesture mode with simulator target
+2025-10-15 14:13:36 | RoverLogger | INFO | ============================================================
+2025-10-15 14:13:36 | RoverLogger | INFO | MicroMelon Rover Control System Started
+2025-10-15 14:13:36 | RoverLogger | INFO | Log level: INFO
+2025-10-15 14:13:36 | RoverLogger | INFO | File logging: Enabled
+2025-10-15 14:13:36 | RoverLogger | INFO | ============================================================
+2025-10-15 14:13:36 | RoverLogger | INFO | ============================================================
+2025-10-15 14:13:36 | RoverLogger | INFO | MicroMelon Rover Control System Started
+2025-10-15 14:13:36 | RoverLogger | INFO | Log level: INFO
+2025-10-15 14:13:36 | RoverLogger | INFO | File logging: Enabled
+2025-10-15 14:13:36 | RoverLogger | INFO | ============================================================
+2025-10-15 14:13:36 | RoverLogger | INFO | ============================================================
+2025-10-15 14:13:36 | RoverLogger | INFO | MicroMelon Rover Control System Started
+2025-10-15 14:13:36 | RoverLogger | INFO | Log level: INFO
+2025-10-15 14:13:36 | RoverLogger | INFO | File logging: Enabled
+2025-10-15 14:13:36 | RoverLogger | INFO | ============================================================
+2025-10-15 14:13:36 | SimulatorRoverController | INFO | Initialized SimulatorRoverController
+2025-10-15 14:13:36 | SimulatorRoverController | INFO | Connecting to simulator at 127.0.0.1:9000
+2025-10-15 14:13:36 | Micromelon | INFO | Rover battery at 100%
+2025-10-15 14:13:36 | Micromelon | INFO | No sensor errors detected
+2025-10-15 14:13:36 | SimulatorRoverController | INFO | Successfully connected to simulator
+2025-10-15 14:13:36 | Main | INFO | Rover connected successfully
+2025-10-15 14:13:55 | Main | INFO | Starting interface...
+2025-10-15 14:15:39 | SimulatorRoverController | INFO | Starting cleanup...
+2025-10-15 14:15:39 | Micromelon | INFO | Connection closed
+2025-10-15 14:15:48 | RoverLogger | INFO | ============================================================
+2025-10-15 14:15:48 | RoverLogger | INFO | MicroMelon Rover Control System Started
+2025-10-15 14:15:48 | RoverLogger | INFO | Log level: INFO
+2025-10-15 14:15:48 | RoverLogger | INFO | File logging: Enabled
+2025-10-15 14:15:48 | RoverLogger | INFO | ============================================================
+2025-10-15 14:15:48 | Main | INFO | MicroMelon Rover Control System starting...
+2025-10-15 14:15:48 | Main | INFO | Arguments: mode=gui, target=simulator
+2025-10-15 14:15:48 | Main | INFO | Starting gui mode with simulator target
+2025-10-15 14:16:04 | RoverLogger | INFO | ============================================================
+2025-10-15 14:16:04 | RoverLogger | INFO | MicroMelon Rover Control System Started
+2025-10-15 14:16:04 | RoverLogger | INFO | Log level: INFO
+2025-10-15 14:16:04 | RoverLogger | INFO | File logging: Enabled
+2025-10-15 14:16:04 | RoverLogger | INFO | ============================================================
+2025-10-15 14:16:04 | RoverLogger | INFO | ============================================================
+2025-10-15 14:16:04 | RoverLogger | INFO | MicroMelon Rover Control System Started
+2025-10-15 14:16:04 | RoverLogger | INFO | Log level: INFO
+2025-10-15 14:16:04 | RoverLogger | INFO | File logging: Enabled
+2025-10-15 14:16:04 | RoverLogger | INFO | ============================================================
+2025-10-15 14:16:04 | RoverLogger | INFO | ============================================================
+2025-10-15 14:16:04 | RoverLogger | INFO | MicroMelon Rover Control System Started
+2025-10-15 14:16:04 | RoverLogger | INFO | Log level: INFO
+2025-10-15 14:16:04 | RoverLogger | INFO | File logging: Enabled
+2025-10-15 14:16:04 | RoverLogger | INFO | ============================================================
+2025-10-15 14:16:04 | SimulatorRoverController | INFO | Initialized SimulatorRoverController
+2025-10-15 14:16:04 | SimulatorRoverController | INFO | Connecting to simulator at 127.0.0.1:9000
+2025-10-15 14:16:04 | Micromelon | INFO | Rover battery at 100%
+2025-10-15 14:16:04 | Micromelon | INFO | No sensor errors detected
+2025-10-15 14:16:04 | SimulatorRoverController | INFO | Successfully connected to simulator
+2025-10-15 14:16:04 | Main | INFO | Rover connected successfully
+2025-10-15 14:16:06 | Main | INFO | Starting interface...
+2025-10-15 14:16:34 | SimulatorRoverController | INFO | Starting cleanup...
+2025-10-15 14:16:34 | Micromelon | INFO | Connection closed
+2025-10-15 14:16:42 | RoverLogger | INFO | ============================================================
+2025-10-15 14:16:42 | RoverLogger | INFO | MicroMelon Rover Control System Started
+2025-10-15 14:16:42 | RoverLogger | INFO | Log level: INFO
+2025-10-15 14:16:42 | RoverLogger | INFO | File logging: Enabled
+2025-10-15 14:16:42 | RoverLogger | INFO | ============================================================
+2025-10-15 14:16:42 | Main | INFO | MicroMelon Rover Control System starting...
+2025-10-15 14:16:42 | Main | INFO | Arguments: mode=keyboard, target=simulator
+2025-10-15 14:16:42 | Main | INFO | Starting keyboard mode with simulator target
+2025-10-15 14:16:42 | RoverLogger | INFO | ============================================================
+2025-10-15 14:16:42 | RoverLogger | INFO | MicroMelon Rover Control System Started
+2025-10-15 14:16:42 | RoverLogger | INFO | Log level: INFO
+2025-10-15 14:16:42 | RoverLogger | INFO | File logging: Enabled
+2025-10-15 14:16:42 | RoverLogger | INFO | ============================================================
+2025-10-15 14:16:42 | RoverLogger | INFO | ============================================================
+2025-10-15 14:16:42 | RoverLogger | INFO | MicroMelon Rover Control System Started
+2025-10-15 14:16:42 | RoverLogger | INFO | Log level: INFO
+2025-10-15 14:16:42 | RoverLogger | INFO | File logging: Enabled
+2025-10-15 14:16:42 | RoverLogger | INFO | ============================================================
+2025-10-15 14:16:42 | RoverLogger | INFO | ============================================================
+2025-10-15 14:16:42 | RoverLogger | INFO | MicroMelon Rover Control System Started
+2025-10-15 14:16:42 | RoverLogger | INFO | Log level: INFO
+2025-10-15 14:16:42 | RoverLogger | INFO | File logging: Enabled
+2025-10-15 14:16:42 | RoverLogger | INFO | ============================================================
+2025-10-15 14:16:42 | SimulatorRoverController | INFO | Initialized SimulatorRoverController
+2025-10-15 14:16:42 | SimulatorRoverController | INFO | Connecting to simulator at 127.0.0.1:9000
+2025-10-15 14:16:42 | Micromelon | INFO | Rover battery at 100%
+2025-10-15 14:16:42 | Micromelon | INFO | No sensor errors detected
+2025-10-15 14:16:42 | SimulatorRoverController | INFO | Successfully connected to simulator
+2025-10-15 14:16:42 | Main | INFO | Rover connected successfully
+2025-10-15 14:16:42 | RoverLogger | INFO | ============================================================
+2025-10-15 14:16:42 | RoverLogger | INFO | MicroMelon Rover Control System Started
+2025-10-15 14:16:42 | RoverLogger | INFO | Log level: INFO
+2025-10-15 14:16:42 | RoverLogger | INFO | File logging: Enabled
+2025-10-15 14:16:42 | RoverLogger | INFO | ============================================================
+2025-10-15 14:16:42 | KeyboardInterface | INFO | Keyboard interface initialized
+2025-10-15 14:16:42 | Main | INFO | Starting interface...
+2025-10-15 14:16:42 | PerformanceMonitor | WARNING | Slow frame processing: 0.117s
+2025-10-15 14:16:47 | Micromelon | WARNING | Inputs automatically constrained
+2025-10-15 14:16:47 | Micromelon | WARNING | Speed must be between -30 and 30. You gave 50
+2025-10-15 14:16:47 | PerformanceMonitor | INFO | Performance Summary:
+2025-10-15 14:16:48 | PerformanceMonitor | INFO |   Average FPS: 140.5
+2025-10-15 14:16:48 | PerformanceMonitor | INFO |   Frame time - Avg: 7.1ms, Min: 0.0ms, Max: 116.6ms
+2025-10-15 14:16:48 | PerformanceMonitor | INFO |   Total frames processed: 100
+2025-10-15 14:16:53 | PerformanceMonitor | INFO | Performance Summary:
+2025-10-15 14:16:53 | PerformanceMonitor | INFO |   Average FPS: 146.8
+2025-10-15 14:16:53 | PerformanceMonitor | INFO |   Frame time - Avg: 6.8ms, Min: 0.0ms, Max: 33.5ms
+2025-10-15 14:16:53 | PerformanceMonitor | INFO |   Total frames processed: 200
+2025-10-15 14:16:59 | PerformanceMonitor | INFO | Performance Summary:
+2025-10-15 14:16:59 | PerformanceMonitor | INFO |   Average FPS: 125.1
+2025-10-15 14:16:59 | PerformanceMonitor | INFO |   Frame time - Avg: 8.0ms, Min: 0.5ms, Max: 36.5ms
+2025-10-15 14:16:59 | PerformanceMonitor | INFO |   Total frames processed: 300
+2025-10-15 14:17:05 | PerformanceMonitor | INFO | Performance Summary:
+2025-10-15 14:17:05 | PerformanceMonitor | INFO |   Average FPS: 127.2
+2025-10-15 14:17:05 | PerformanceMonitor | INFO |   Frame time - Avg: 7.9ms, Min: 0.0ms, Max: 39.9ms
+2025-10-15 14:17:05 | PerformanceMonitor | INFO |   Total frames processed: 400
+2025-10-15 14:17:11 | PerformanceMonitor | INFO | Performance Summary:
+2025-10-15 14:17:11 | PerformanceMonitor | INFO |   Average FPS: 166.7
+2025-10-15 14:17:11 | PerformanceMonitor | INFO |   Frame time - Avg: 6.0ms, Min: 0.0ms, Max: 32.9ms
+2025-10-15 14:17:11 | PerformanceMonitor | INFO |   Total frames processed: 500
+2025-10-15 14:17:17 | PerformanceMonitor | INFO | Performance Summary:
+2025-10-15 14:17:17 | PerformanceMonitor | INFO |   Average FPS: 134.5
+2025-10-15 14:17:17 | PerformanceMonitor | INFO |   Frame time - Avg: 7.4ms, Min: 0.0ms, Max: 29.8ms
+2025-10-15 14:17:17 | PerformanceMonitor | INFO |   Total frames processed: 600
+2025-10-15 14:17:18 | KeyboardInterface | INFO | Keyboard interface shutdown
+2025-10-15 14:17:18 | SimulatorRoverController | INFO | Starting cleanup...
+2025-10-15 14:17:18 | Micromelon | INFO | Connection closed
+2025-10-15 14:19:59 | RoverLogger | INFO | ============================================================
+2025-10-15 14:19:59 | RoverLogger | INFO | MicroMelon Rover Control System Started
+2025-10-15 14:19:59 | RoverLogger | INFO | Log level: INFO
+2025-10-15 14:19:59 | RoverLogger | INFO | File logging: Enabled
+2025-10-15 14:19:59 | RoverLogger | INFO | ============================================================
+2025-10-15 14:19:59 | Main | INFO | MicroMelon Rover Control System starting...
+2025-10-15 14:19:59 | Main | INFO | Arguments: mode=gui, target=simulator
+2025-10-15 14:19:59 | Main | INFO | Starting gui mode with simulator target
+2025-10-15 14:19:59 | RoverLogger | INFO | ============================================================
+2025-10-15 14:19:59 | RoverLogger | INFO | MicroMelon Rover Control System Started
+2025-10-15 14:19:59 | RoverLogger | INFO | Log level: INFO
+2025-10-15 14:19:59 | RoverLogger | INFO | File logging: Enabled
+2025-10-15 14:19:59 | RoverLogger | INFO | ============================================================
+2025-10-15 14:19:59 | RoverLogger | INFO | ============================================================
+2025-10-15 14:19:59 | RoverLogger | INFO | MicroMelon Rover Control System Started
+2025-10-15 14:19:59 | RoverLogger | INFO | Log level: INFO
+2025-10-15 14:19:59 | RoverLogger | INFO | File logging: Enabled
+2025-10-15 14:19:59 | RoverLogger | INFO | ============================================================
+2025-10-15 14:19:59 | RoverLogger | INFO | ============================================================
+2025-10-15 14:19:59 | RoverLogger | INFO | MicroMelon Rover Control System Started
+2025-10-15 14:19:59 | RoverLogger | INFO | Log level: INFO
+2025-10-15 14:19:59 | RoverLogger | INFO | File logging: Enabled
+2025-10-15 14:19:59 | RoverLogger | INFO | ============================================================
+2025-10-15 14:19:59 | SimulatorRoverController | INFO | Initialized SimulatorRoverController
+2025-10-15 14:19:59 | SimulatorRoverController | INFO | Connecting to simulator at 127.0.0.1:9000
+2025-10-15 14:19:59 | Micromelon | INFO | Rover battery at 100%
+2025-10-15 14:19:59 | Micromelon | INFO | No sensor errors detected
+2025-10-15 14:19:59 | SimulatorRoverController | INFO | Successfully connected to simulator
+2025-10-15 14:19:59 | Main | INFO | Rover connected successfully
+2025-10-15 14:19:59 | Main | INFO | Starting interface...
+2025-10-15 14:20:08 | SimulatorRoverController | INFO | Starting cleanup...
+2025-10-15 14:20:08 | Micromelon | INFO | Connection closed
+2025-10-15 14:20:15 | RoverLogger | INFO | ============================================================
+2025-10-15 14:20:15 | RoverLogger | INFO | MicroMelon Rover Control System Started
+2025-10-15 14:20:15 | RoverLogger | INFO | Log level: INFO
+2025-10-15 14:20:15 | RoverLogger | INFO | File logging: Enabled
+2025-10-15 14:20:15 | RoverLogger | INFO | ============================================================
+2025-10-15 14:20:15 | Main | INFO | MicroMelon Rover Control System starting...
+2025-10-15 14:20:15 | Main | INFO | Arguments: mode=gesture, target=simulator
+2025-10-15 14:20:15 | Main | INFO | Starting gesture mode with simulator target
+2025-10-15 14:20:16 | RoverLogger | INFO | ============================================================
+2025-10-15 14:20:16 | RoverLogger | INFO | MicroMelon Rover Control System Started
+2025-10-15 14:20:16 | RoverLogger | INFO | Log level: INFO
+2025-10-15 14:20:16 | RoverLogger | INFO | File logging: Enabled
+2025-10-15 14:20:16 | RoverLogger | INFO | ============================================================
+2025-10-15 14:20:16 | RoverLogger | INFO | ============================================================
+2025-10-15 14:20:16 | RoverLogger | INFO | MicroMelon Rover Control System Started
+2025-10-15 14:20:16 | RoverLogger | INFO | Log level: INFO
+2025-10-15 14:20:16 | RoverLogger | INFO | File logging: Enabled
+2025-10-15 14:20:16 | RoverLogger | INFO | ============================================================
+2025-10-15 14:20:16 | RoverLogger | INFO | ============================================================
+2025-10-15 14:20:16 | RoverLogger | INFO | MicroMelon Rover Control System Started
+2025-10-15 14:20:16 | RoverLogger | INFO | Log level: INFO
+2025-10-15 14:20:16 | RoverLogger | INFO | File logging: Enabled
+2025-10-15 14:20:16 | RoverLogger | INFO | ============================================================
+2025-10-15 14:20:16 | SimulatorRoverController | INFO | Initialized SimulatorRoverController
+2025-10-15 14:20:16 | SimulatorRoverController | INFO | Connecting to simulator at 127.0.0.1:9000
+2025-10-15 14:20:16 | Micromelon | INFO | Rover battery at 100%
+2025-10-15 14:20:16 | Micromelon | INFO | No sensor errors detected
+2025-10-15 14:20:16 | SimulatorRoverController | INFO | Successfully connected to simulator
+2025-10-15 14:20:16 | Main | INFO | Rover connected successfully
+2025-10-15 14:20:22 | Main | INFO | Starting interface...
+2025-10-15 14:20:53 | SimulatorRoverController | INFO | Starting cleanup...
+2025-10-15 14:20:53 | Micromelon | INFO | Connection closed
+2025-10-15 14:21:09 | RoverLogger | INFO | ============================================================
+2025-10-15 14:21:09 | RoverLogger | INFO | MicroMelon Rover Control System Started
+2025-10-15 14:21:09 | RoverLogger | INFO | Log level: INFO
+2025-10-15 14:21:09 | RoverLogger | INFO | File logging: Enabled
+2025-10-15 14:21:09 | RoverLogger | INFO | ============================================================
+2025-10-15 14:21:09 | Main | INFO | MicroMelon Rover Control System starting...
+2025-10-15 14:21:09 | Main | INFO | Arguments: mode=gesture, target=simulator
+2025-10-15 14:21:09 | Main | INFO | Starting gesture mode with simulator target
+2025-10-15 14:21:11 | RoverLogger | INFO | ============================================================
+2025-10-15 14:21:11 | RoverLogger | INFO | MicroMelon Rover Control System Started
+2025-10-15 14:21:11 | RoverLogger | INFO | Log level: INFO
+2025-10-15 14:21:11 | RoverLogger | INFO | File logging: Enabled
+2025-10-15 14:21:11 | RoverLogger | INFO | ============================================================
+2025-10-15 14:21:11 | RoverLogger | INFO | ============================================================
+2025-10-15 14:21:11 | RoverLogger | INFO | MicroMelon Rover Control System Started
+2025-10-15 14:21:11 | RoverLogger | INFO | Log level: INFO
+2025-10-15 14:21:11 | RoverLogger | INFO | File logging: Enabled
+2025-10-15 14:21:11 | RoverLogger | INFO | ============================================================
+2025-10-15 14:21:11 | RoverLogger | INFO | ============================================================
+2025-10-15 14:21:11 | RoverLogger | INFO | MicroMelon Rover Control System Started
+2025-10-15 14:21:11 | RoverLogger | INFO | Log level: INFO
+2025-10-15 14:21:11 | RoverLogger | INFO | File logging: Enabled
+2025-10-15 14:21:11 | RoverLogger | INFO | ============================================================
+2025-10-15 14:21:11 | SimulatorRoverController | INFO | Initialized SimulatorRoverController
+2025-10-15 14:21:11 | SimulatorRoverController | INFO | Connecting to simulator at 127.0.0.1:9000
+2025-10-15 14:21:11 | Micromelon | INFO | Rover battery at 100%
+2025-10-15 14:21:11 | Micromelon | INFO | No sensor errors detected
+2025-10-15 14:21:11 | SimulatorRoverController | INFO | Successfully connected to simulator
+2025-10-15 14:21:11 | Main | INFO | Rover connected successfully
+2025-10-15 14:21:16 | Main | INFO | Starting interface...
+2025-10-15 14:21:22 | SimulatorRoverController | INFO | Starting cleanup...
+2025-10-15 14:21:22 | Micromelon | INFO | Connection closed
