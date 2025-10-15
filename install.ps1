@@ -1,5 +1,5 @@
 # MicroMelon Rover Control System Installation Script
-# Installs dependencies directly to system Python (no virtual environment)
+# Creates virtual environment and installs dependencies
 param([switch]$Dev, [switch]$Force, [switch]$Help)
 
 if ($Help) {
@@ -28,15 +28,35 @@ if ($LASTEXITCODE -ne 0) {
 }
 Write-Host "Found Python: $pythonVersion" -ForegroundColor Green
 
-# Check if we should upgrade pip
-Write-Host "Checking pip version..." -ForegroundColor Yellow
+# Create virtual environment
+$venvPath = ".\venv"
+if (-not (Test-Path $venvPath) -or $Force) {
+    if (Test-Path $venvPath) {
+        Write-Host "Removing existing virtual environment..." -ForegroundColor Yellow
+        Remove-Item -Recurse -Force $venvPath
+    }
+    Write-Host "Creating virtual environment..." -ForegroundColor Yellow
+    python -m venv $venvPath
+    if ($LASTEXITCODE -ne 0) {
+        Write-Host "Failed to create virtual environment" -ForegroundColor Red
+        exit 1
+    }
+}
 
-# Upgrade pip
-Write-Host "Upgrading pip..." -ForegroundColor Yellow
+# Activate virtual environment
+Write-Host "Activating virtual environment..." -ForegroundColor Yellow
+& "$venvPath\Scripts\Activate.ps1"
+if ($LASTEXITCODE -ne 0) {
+    Write-Host "Failed to activate virtual environment" -ForegroundColor Red
+    exit 1
+}
+
+# Upgrade pip in virtual environment
+Write-Host "Upgrading pip in virtual environment..." -ForegroundColor Yellow
 python -m pip install --upgrade pip
 
 # Install dependencies
-Write-Host "Installing dependencies to system Python..." -ForegroundColor Yellow
+Write-Host "Installing dependencies to virtual environment..." -ForegroundColor Yellow
 
 if ($Force) {
     Write-Host "Force reinstall enabled - upgrading all packages..." -ForegroundColor Yellow
@@ -85,5 +105,10 @@ Write-Host "  • Full command help: python rover.py --help"
 Write-Host "  • System status:     python rover.py --status --target simulator"
 Write-Host "  • Train gestures:    python train.py"
 Write-Host ""
-Write-Host "NOTE: Dependencies installed to system Python (no virtual environment)"
+Write-Host "VIRTUAL ENVIRONMENT:" -ForegroundColor Cyan
+Write-Host "  • Activate:     .\venv\Scripts\Activate.ps1"
+Write-Host "  • Deactivate:   deactivate"
+Write-Host ""
+Write-Host "NOTE: Dependencies installed in virtual environment at .\venv"
+Write-Host "Remember to activate the virtual environment before running commands!"
 Write-Host "Happy rovering!" -ForegroundColor Green
